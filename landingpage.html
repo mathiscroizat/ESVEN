@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esven - Mobilité solaire en Provence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #1e1e1e;
+      background-color: #f5f3ed;
+    }
+    header {
+      position: relative;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 30px;
+      margin-right: 1rem;
+    }
+    .title {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    nav {
+      margin-left: auto;
+    }
+  
+    nav a {
+      text-decoration: none;
+      color: #1e1e1e;
+      margin-left: 2rem;
+      font-weight: 400;
+    }
+    .hero {
+      padding: 6rem 2rem;
+      text-align: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                  url('kateprincipale.png');
+      background-size: cover;
+      background-position: center;
+      color: #f5f3ed;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #f5f3ed;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      color: #f5f3ed;
+    }
+    .cta {
+      background-color: #a6b2c4;
+      color: white;
+      padding: 0.8rem 2rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+    .section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 2rem;
+    }
+    .feature {
+      width: 300px;
+      margin: 1rem;
+    }
+    .feature h4 {
+      margin-bottom: 0.5rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 350px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #f5f5f5;
+      color: #555;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="monogramme copie1.png" alt="Logo Esven">
+    </div>
+    <div class="title">ESVEN</div>
+    <nav>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Site en construction</h2>
+    <p>Location de véhicule iconique pour hôtels de prestige, villas privées et événements d’exception.</p>
+    <a href="mailto:mathiscroizat@yahoo.com">
+      <button class="cta">Recevoir la présentation complète</button>
+    </a>
+  </section>
+
+  <section class="section">
+    <h3>Esven, l’art de la location élégante.</h3>
+    <div class="features">
+      <div class="feature">
+        <h4>Location saisonnière</h4>
+        <p>Une mise à disposition prolongée pour hôtels de luxe, villas d’exception et conciergeries privées — idéale pour la haute saison.</p>
+      </div>
+      <div class="feature">
+        <h4>Location à la demande</h4>
+        <p>Un service flexible pour les séjours éphémères, avec service de livraison sur mesure.</p>
+      </div>
+      <div class="feature">
+        <h4>Location événementielle</h4>
+        <p>La Kate devient un vecteur d’image et un outil marketing émotionnel lors de mariages, lancements ou tournages haut de gamme.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="gallery">
+      <img src="kate de face.jpg" alt="Vue latérale">
+      <img src="kateinterieur.jpg" alt="Kate en situation">
+      <img src="katecote.jpg" alt="Vue avant de la Kate">
+    </div>
+  </section>
+  
+
+  <section class="section" id="contact">
+    <h3>Contact</h3>
+    <p>Mathis CROIZAT<br>Email : <a href="mailto:m.croizat@esven.fr">m.croizat@esven.fr</a><br>Tél : 07 87 41 00 86</p>
+  </section>
+
+  <footer>
+    © 2025 Esven. Tous droits réservés.
+  </footer>
+</body>
+</html>
